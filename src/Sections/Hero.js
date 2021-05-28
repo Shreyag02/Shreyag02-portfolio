@@ -1,6 +1,6 @@
 import React from 'react';
 import Social from '../Components/Social';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import Shreya from "../Img/shreya.jpg"
 import { faTwitter, faGithub, faLinkedinIn} from "@fortawesome/free-brands-svg-icons"
 
@@ -11,8 +11,8 @@ const Hero = () => {
             <div className="col-md-5 text-center border-light shadow-soft rounded p-4 pt-6 mx-3 my-4" id="">
                 <p className="h3 text-center">What I do?</p>
                 <br/>
-                <p className="h4 text-center">I'm a&nbsp;
-                <Typed
+                <p className="h4 text-center">I'm a Web Designer &<br/>Front-End Developer.
+                {/* <Typed
                 strings={[
                     'Learner.',
                     'Web Designer.',
@@ -21,7 +21,7 @@ const Hero = () => {
                     typeSpeed={55}
                     backSpeed={60}
                     loop >
-                </Typed>
+                </Typed> */}
                 </p>
                 <hr className="mx-5"/>
                 <ul className="d-flex justify-content-center list-unstyled mb-4">
